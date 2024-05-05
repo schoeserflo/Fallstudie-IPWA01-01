@@ -1,11 +1,18 @@
 import React from 'react';
+import {Container, Nav, Navbar} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
   return (
-    <footer>
-      <p>© 2024 Mein Website. Alle Rechte vorbehalten.</p>
-      <p><a href="/impressum">Impressum</a></p>
-    </footer>
+    <>
+      <Navbar bg="dark" data-bs-theme="dark" fixed="bottom">
+        <Container>
+          <Navbar.Brand href="#impressum">Impressum</Navbar.Brand>
+          <Nav className="me-auto">
+          </Nav>
+        </Container>
+      </Navbar>
+      </>
   );
 }
 
