@@ -1,17 +1,18 @@
 import Table from 'react-bootstrap/Table';
 
-function Co2Tabelle() {
-  return (
-    <Table striped="columns">
-      <thead>
-        <tr>
-          <th>Nr</th>
-          <th>Land/Unternehmen</th>
-          <th>Co2 Emissionen in millionen t/Jahr</th>
-          <th>Land (bei Unternehmen)</th>
-        </tr>
-      </thead>
-      <tbody>
+const FlexTable = () => {
+    return(
+    <div class="flex-container">
+      <Table striped>
+        <thead>
+          <tr>
+            <th>Nr</th>
+            <th>Land/Unternehmen</th>
+            <th>Co2 Emissionen in millionen t/Jahr</th>
+            <th>Land (bei Unternehmen)</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>1</td>
           <td>USA</td>
@@ -162,9 +163,9 @@ function Co2Tabelle() {
           <td>150</td>
           <td>Indien</td>
         </tr>
-      </tbody>
-    </Table>
+        </tbody>
+      </Table>
+    </div>
   );
-}
-
-export default Co2Tabelle;
+};
+export default FlexTable

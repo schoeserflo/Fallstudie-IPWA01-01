@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.flex-container {
+  display: flex;
+  justify-content: flex-start; /* Richtet den Inhalt am Anfang des Containers aus */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  height: 100vh;
+}
+
