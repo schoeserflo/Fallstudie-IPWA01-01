@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Footer() {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark" fixed="bottom">
+      <Navbar fixed="bottom" bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#impressum">Impressum</Navbar.Brand>
           <Nav className="me-auto">
