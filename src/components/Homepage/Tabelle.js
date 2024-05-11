@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import Form from 'react-bootstrap/Form';
+
 function Tabelle() {
   const [data, setData] = useState([
     { id: 1, name: "USA", emissions: 5000, country: "" },

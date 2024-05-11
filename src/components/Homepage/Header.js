@@ -3,7 +3,6 @@ import { Container, Row, Col, Navbar, Nav} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
-
     function Header() {
       return (
     <Navbar expand="lg" style={{ backgroundColor: '#4CAF50' }}>
@@ -13,9 +12,9 @@ import { Link } from 'react-router-dom';
           <Nav.Link as={Link} to="/" style={{ color: 'white' }}>Green-Hand</Nav.Link>
         </Col>
         <Col xs={4} className="d-flex align-items-center justify-content-center">
-          <Link to="/">
-            <img src="/Green.png" alt="Firmenlogo" style={{ height: '50px' }} />
-          </Link>
+            <Link to="/">
+              <img src="/Green.png" alt="Green Hand Logo" style={{ height: '50px' }} />
+            </Link>
         </Col>
         <Col xs={4} className="d-flex align-items-center justify-content-end">
         <Nav.Link as={Link} to="/co" style={{ color: 'white' }}>Über CO2</Nav.Link>

@@ -7,6 +7,8 @@ function App() {
   return (
       <div>
       <Header/>
+      <h1 className="centered-title">Klartext CO2</h1>
+      <p></p>
       <Content/>
       <Footer/>
     </div>

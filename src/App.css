@@ -1,17 +1,16 @@
-
-.centered-content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height:calc(100vh - 120px); /* Nimmt die volle Höhe des Viewports ein, abzüglich Header/Footer */
-  padding: 40px;
+.navbar-custom {
+  background-color: #4CAF50; /* Hier kannst du jeden Farbcode einsetzen */
+  color: white; /*Ändert die Textfarbe auf Weiß*/
 }
-
 .content {
-  max-width: 600px;
-  width: 100%;
-  overflow: auto;
+  display:flex;
+  align-items: center top;
+  justify-content: center;
+  min-height: calc(100vh - 100px);
 }
-
-
+.centered-title {
+  text-align:center;
+  width: 100%;
+  margin: 20px 0;
+}
 
